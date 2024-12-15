@@ -1,0 +1,1 @@
+# QuickRent-Gadget-renting-platfrom
