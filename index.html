@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuickRent</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Hero Banner -->
+  <header class="hero-banner">
+    <nav class="navbar">
+      <h1>QuickRent</h1>
+      <ul>
+        <li><a href="#features" data-lang="features-link">Features</a></li>
+        <li><a href="#gadgets" data-lang="gadgets-link">Gadgets</a></li>
+        <li><a href="#contact" data-lang="contact-link">Contact</a></li>
+        <li><button class="signup-btn" data-lang="signup-btn">Sign Up</button></li>
+        <li>
+          <select id="language-selector">
+            <option value="en">English</option>
+            <option value="fr">French</option>
+            <option value="es">Spanish</option>
+          </select>
+        </li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <h2 data-lang="hero-header">Rent the Best Gadgets, Anytime, Anywhere!</h2>
+      <button class="cta-btn" id="explore-btn" data-lang="explore-btn">Explore Rentals</button>
+    </div>
+  </header>
+
+  <!-- Features Section -->
+  <section id="features" class="features-section">
+    <h2>Why Choose QuickRent?</h2>
+    <div class="features-container">
+      <div class="feature-card">
+        <i class="icon gadget-icon"></i>
+        <h3>Wide Variety of Gadgets</h3>
+        <p>Choose from laptops, cameras, gaming consoles, and more.</p>
+      </div>
+      <div class="feature-card">
+        <i class="icon pricing-icon"></i>
+        <h3>Affordable Pricing</h3>
+        <p>Get the best value for your rentals with flexible plans.</p>
+      </div>
+      <div class="feature-card">
+        <i class="icon delivery-icon"></i>
+        <h3>Quick Delivery</h3>
+        <p>Receive your gadgets at your doorstep in no time.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gadget Listing Section -->
+  <section id="gadgets" class="gadget-listing-section">
+    <h2>Available Gadgets</h2>
+    <div class="gadget-list">
+      <div class="gadget-card">
+        <img src="laptop.png" alt="Laptop">
+        <h3>Laptop</h3>
+        <p>&#8377;500/day</p>
+        <button class="cta-btn rent-btn">Rent Now</button>
+      </div>
+      <div class="gadget-card">
+        <img src="camera.png" alt="Camera">
+        <h3>Camera</h3>
+        <p>&#8377;300/day</p>
+        <button class="cta-btn rent-btn">Rent Now</button>
+      </div>
+      <div class="gadget-card">
+        <img src="console.png" alt="Gaming Console">
+        <h3>Gaming Console</h3>
+        <p>&#8377;400/day</p>
+        <button class="cta-btn rent-btn">Rent Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section id="contact" class="contact-section">
+    <h2 data-lang="contact-header">Contact Us</h2>
+    <form class="contact-form" id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+  </section>
+  <script href="script.js"></script>
+
+  
